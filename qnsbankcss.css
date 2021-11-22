@@ -1,0 +1,231 @@
+body {
+  
+    margin: 0px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: grid;
+    place-items: center;
+   
+}
+
+   
+
+*{
+  
+    box-sizing: border-box;
+    font-family:sans-serif, 'Popins',sans-serif;
+}
+.main
+{
+    width:100%;
+    height:2000px;
+    background-image:linear-gradient(rgb(169, 169, 255), rgb(148, 148, 245),rgb(253, 111, 189) )
+   
+}
+.head
+{
+    width:100%;
+    height:100px;
+    /* position:fixed; */
+    background-image:linear-gradient(rgb(169, 169, 255) ,rgb(169, 169, 255) )
+    
+   
+}
+.img1
+{
+    width: 170px;
+    height:100px; 
+    animation-name:none;
+    float: left;
+    padding-left: 100px;
+}
+
+
+hr {
+    border: 4px dotted #000000;
+    border-style: none none dotted; 
+  
+}
+
+.qnsdiv
+{
+   
+    padding-top:37px;
+}
+
+.qnstext
+{
+    color:rgb(0, 0, 0);
+    
+    text-decoration: none;
+    padding-left: 80px;
+    font-size:40px;
+    
+    font-weight: bold;
+    font-family: Arial;
+    float: left;
+    
+}
+.qnstext:hover{
+  
+    color: rgb(255, 255, 255);
+}
+
+.btn {
+    background-color:rgb(169, 169, 255) ;
+    border: none;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    opacity: 1;
+    transition: 0.1s;
+    padding-left: 500px;
+    float: left;
+  }
+  
+  .btn:hover {
+    color: rgb(0, 69, 230);
+    font-size: 55px;
+  }
+
+  .btn1 {
+    background-color: rgb(169, 169, 255) ;
+    border: none;
+    color: rgb(41, 39, 39);
+
+    text-align: center;
+    font-size: 37px;
+    font-weight: bold;
+    font-family: sans-serif;
+    opacity: 1;
+    transition: 0.1s;
+    padding-left: 80px;
+    float: left;
+  }
+  
+  .btn1:hover {
+    color: rgb(0, 69, 230);
+        font-size: 49px;
+  }
+
+
+  .btn2 {
+    background-color: rgb(169, 169, 255) ;
+    border: none;
+    color: rgb(41, 39, 39);
+    text-decoration: none;
+    text-align: center;
+    font-size: 37px;
+    font-weight: bold;
+    font-family: sans-serif;
+    opacity: 1;
+    transition: 0.1s;
+    padding-left: 80px;
+    float: left;
+  }
+  
+  .btn2:hover {
+    color: rgb(0, 69, 230);
+        font-size: 49px;
+  }
+
+
+
+
+  .notification {
+    background-color: rgb(169, 169, 255);
+    color:rgb(41, 39, 39);
+    text-decoration: none;
+   
+    position: relative;
+    display: inline-block;
+    transition: 0.1s;
+    padding-left: 80px;
+    float: left;
+    font-size: 37px;
+    font-weight: bold;
+    font-family: sans-serif;
+    opacity: 1;
+  }
+  
+  .notification:hover {
+    color: rgb(0, 69, 230);
+    font-size: 49px;
+  }
+  
+  .notification .badge {
+    position: absolute;
+    top: -25px;
+    right: -45px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: rgb(246, 53, 53);
+    color: white;
+    opacity: 1;
+  }
+
+  .notify{
+      float: left;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .btn4 {
+    background-color: rgb(169, 169, 255) ;
+    border: none;
+    color: rgb(41, 39, 39);
+    text-decoration: none;
+    text-align: center;
+    font-size: 37px;
+    font-weight: bold;
+    font-family: sans-serif;
+    opacity: 1;
+    transition: 0.1s;
+    padding-left: 80px;
+    float: left;
+  }
+  
+  .btn4:hover {
+    color: rgb(0, 69, 230);
+        font-size: 49px;
+  }
+
+
+
+  .para2{
+      color: rgb(0, 0, 0);
+      font-size:40px;
+      font-weight: bold;
+      font-style: normal;
+      padding-top: 100px;
+      padding-left: 200px;
+      
+  }
+
+  .imgpdf{
+      margin-left: 200px;
+
+  }
+
+  .downloadtag{
+    color: rgb(13, 126, 10);
+    font-size:40px;
+    font-weight: bold;
+    font-style:oblique;
+    padding-top: 20px;
+    padding-left: 200px;
+   
+  }
+  .atag{
+    text-decoration: none;
+  }

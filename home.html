@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+      
+        <title>Home</title>
+        <link rel="stylesheet" href="homecss.css" />
+        <link rel="icon" href="titile icon.png" type="image/x-icon" />
+        <style>
+    html::-webkit-scrollbar-thumb{
+    background-color:rgb(169, 169, 255);
+}
+html::-webkit-scrollbar-thumb:hover{
+    background-color:rgb(253, 111, 189);
+}
+
+html::-webkit-scrollbar-track{
+    background-color: rgb(169, 169, 255);
+}
+html::-webkit-scrollbar-track:hover{
+    background-color:rgb(169, 169, 255);
+}
+html::-webkit-scrollbar{
+    width: 0.7vw;
+}
+        </style>
+    </head>
+    <body>
+         <div class="main">
+         <div class="head">
+
+
+
+                   <div>
+                    <img class="img1"src="icon.png"> </img>
+                   </div>
+                   
+
+                  <div class="qnsdiv">
+                   <a class="qnstext" href="home.html">Question Bank Online</a> 
+                  </div>  
+                 
+                  <div class="home1">
+                    <a class="btn" href="home.html">Home</a>
+                </div>
+
+             
+                <div class="qnsbankl">
+                    <a class="btn1" href="qnsbank.html">QnsBank</a>
+                </div>
+
+
+                <div class="exam">
+                    <a class="btn2" href="exam.html">Exam</a>
+                </div>
+
+
+      <div class="notify">
+        <a href="notify.html" class="notification">
+            <span>Notify</span>
+            <span class="badge">3</span>
+          </a>
+      </div>
+
+
+                <div class="help">
+                    <a class="btn4" href="help.html">Help</a>
+                </div>
+
+         </div class="head">
+
+<hr>
+
+
+
+
+
+<div> <button onclick="typeWriter()" class="news" > updates </button>
+
+    <p id="demo" class="para"> </p>
+    
+    <script>
+    var i = 0;
+    var txt = 'Revised Notification for the online registration for the First and Third Semester MCA Supplementary Examinations [28 Sep 2021] .'
+    var speed = 20;
+    
+    function typeWriter() {
+      if (i < txt.length) {
+        document.getElementById("demo").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+    </script></div>
+
+<div><button class="btnmca">MCA</button>
+</div>
+
+<div><button class="btnmsc">MSC </button>
+</div>
+
+<div><button class="btnit">IT</button>
+</div>
+
+<div><button class="btndata">Data Science</button>
+</div>
+
+
+
+
+<!-- second row of divs -->
+
+
+<div><button class="btnsm">Study materials</button>
+</div>
+
+<div><button class="btnm">Marks </button>
+</div>
+
+<div><button class="btnatd">Attendance</button>
+</div>
+
+<div><button class="btntodo">TODO</button>
+</div>
+
+
+
+
+
+
+         </div class="main">
+
+         
+
+   
+
+    </body>
+</html>

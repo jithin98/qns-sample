@@ -1,0 +1,253 @@
+body {
+  
+    margin: 0px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: grid;
+    place-items: center;
+   
+}
+
+   
+
+*{
+  
+    box-sizing: border-box;
+    font-family:'Popins',sans-serif;
+}
+.main
+{
+    width:100%;
+    height:1200px;
+    background-image:linear-gradient(rgb(238, 36, 114) ,rgb(231, 125, 181) )
+   
+}
+.head
+{
+    width:100%;
+    height:100px;
+    background-image:linear-gradient(rgb(245, 13, 129) ,rgb(238, 36, 114 ))
+   
+}
+.img1
+{
+    width: 170px;
+    height:100px; 
+    animation-name:none;
+    float: left;
+    padding-left: 100px;
+}
+
+.qnsdiv
+{
+   
+    padding-top:37px;
+}
+
+.qnstext
+{
+    color:rgb(255, 255, 255);
+    
+    text-decoration: none;
+    padding-left: 80px;
+    font-size:40px;
+    
+    font-weight: bold;
+    font-family: Arial;
+    float: left;
+    
+}
+.qnstext:hover{
+  
+    color: rgb(0, 0, 0);
+}
+
+
+
+.box{
+    width:800px;
+    height:800px;
+    background:#fff;
+    margin-top: 130px;
+    border-radius: 10px;
+    box-shadow: 60px 60px 100px rgba(0,0,0,0.1);
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin-left:730px;
+}
+.box .title-text{
+    display: flex;
+    width: 200%;
+}
+.box .title-text .title{
+    width: 50%;
+    font-size: 50px;
+  
+    text-align: center; 
+    font-weight: bolder;
+    padding-top: 20px;
+    text-decoration:underline;
+}
+
+.box .form-container{
+width: 100%;
+}
+
+.form-container .form-inner form .filed{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.form-container .form-inner form .loginview{
+    float: left;
+    padding-right:50px;
+    padding-left: 90px;
+    padding-bottom: 10px;
+    padding-top: 35px;
+
+}
+.form-container .form-inner form .signinview{
+   padding-bottom: 10px;
+   padding-top: 35px;
+
+}
+
+.button2 {
+    font-weight: bold; 
+    font-size: 40px;
+    text-align: center;
+    width: 300px;
+    height: 80px;
+    float: left;
+    cursor: pointer;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(231, 7, 100);
+    border: none;
+    transition: all 0s;
+    border-radius: 10px;
+    box-shadow: 0 5px rgb(184, 184, 184);
+  
+  
+  
+   
+  }
+  
+  .button2:hover {background-color: #e40e67}
+  
+  .button2:active {
+    background-color: #c00773;
+    box-shadow: 0 5px rgb(143, 143, 143);
+    transform: translateY(16px);
+    color:rgb(0, 0, 0);
+  
+  }
+
+
+
+  .button1 {
+    font-weight: bold; 
+    font-size: 40px;
+    text-align: center;
+    width: 300px;
+    height: 80px;
+    float: left;
+    cursor: pointer;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #f5a1d2;
+    border: none;
+    transition: all 0s;
+    border-radius: 10px;
+    box-shadow: 0 5px rgb(184, 184, 184);
+  
+   
+  }
+  
+  .button1:hover {background-color: #e40e67}
+  
+  .button1:active {
+    background-color: #c00773;
+    box-shadow: 0 5px rgb(143, 143, 143);
+    transform: translateY(16px);
+    color:rgb(0, 0, 0);
+  
+  }
+
+
+
+  .form-container .form-inner form .nametext{
+    height: 60px;
+    width: 100%;
+    margin-top: 35px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 70px;
+}
+
+.form-container .form-inner form .emailtext{
+    height: 60px;
+    width: 100%;
+   
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 70px;
+}
+.form-container .form-inner form .passwordtext{
+    height: 60px;
+    width: 100%;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 70px;
+}
+
+.form-container .form-inner form .namebox{
+    height: 70px;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    border: 4px solid rgb(10, 127, 245);
+}
+
+.form-container .form-inner form .emailbox{
+    height: 70px;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    border: 4px solid rgb(10, 127, 245);
+}
+
+.form-container .form-inner form .passwordbox{
+    height: 70px;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+   border-radius: 10px;
+   border: 4px solid rgb(10, 127, 245);
+}
+
+.form-inner form .filed input{
+    height: 80px;
+    width:550px;
+    font-weight: bolder;
+    font-size: 53px;
+    border-radius: 30px;
+    border: 1px solid rgb(10, 127, 245);
+    border-bottom-width: 2px;
+    margin-top: 80px;
+    margin-left: 120px;
+    background-image:linear-gradient(rgb(46, 148, 51),rgb(82, 226, 142));
+    color: oldlace;
+}
